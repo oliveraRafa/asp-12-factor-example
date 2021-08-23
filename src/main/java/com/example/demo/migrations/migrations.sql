@@ -1,1 +1,1 @@
--- Script for making Database Migrations
+-- Script for making Database Migration
