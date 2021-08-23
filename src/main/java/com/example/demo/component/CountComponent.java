@@ -5,13 +5,13 @@ import org.springframework.stereotype.Component;
 @Component
 public class CountComponent {
 
-    private int count;
+    private int count = 0;
 
     public int getCount() {
         return count;
     }
 
-    public int updateCount() {
-        return count + 1;
+    public void updateCount() {
+        count++;
     }
 }

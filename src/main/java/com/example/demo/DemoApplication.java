@@ -17,7 +17,7 @@ public class DemoApplication {
 	@RequestMapping("/")
 	@ResponseBody
 	String home() {
-		return "Welcome to House Manager!";
+		return "Welcome to the ASP Visitors Counter!";
 	}
 
 	@RequestMapping("/count")
