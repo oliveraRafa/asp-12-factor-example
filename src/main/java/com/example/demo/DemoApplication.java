@@ -17,14 +17,14 @@ public class DemoApplication {
 	@RequestMapping("/")
 	@ResponseBody
 	String home() {
-		return "Welcome to the ASP Visitors Counter!";
+		return "Welcome to the ASP Visits Counter!";
 	}
 
 	@RequestMapping("/count")
 	@ResponseBody
 	String count() {
 		countComponent.updateCount();
-		return "You have " + countComponent.getCount() + " visitors";
+		return "You have " + countComponent.getCount() + " visits";
 	}
 
 	public static void main(String[] args) {
